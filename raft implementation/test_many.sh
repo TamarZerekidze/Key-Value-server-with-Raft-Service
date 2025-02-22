@@ -13,7 +13,7 @@ do
     echo "Running test iteration $i" | tee -a "$LOGFILE"
 
     # Run the test and log the time it takes
-    { time go test -run 3D ; } 2>&1 | tee -a "$LOGFILE"
+    { time go test ; } 2>&1 | tee -a "$LOGFILE"
 
     # Check if the test failed
     if grep -q "FAIL" "$LOGFILE"; then
