@@ -1,6 +1,6 @@
 # Raft: A Fault-Tolerant Replicated State Machine
 
-This repository contains my implementation of the Raft consensus algorithm for the MIT 6.824 lab. It provides a replicated state machine that ensures consistent log replication across multiple servers.
+This repository contains my implementation of the Raft consensus algorithm. It provides a replicated state machine that ensures consistent log replication across multiple servers.
 
 ## Raft Implementation
 
